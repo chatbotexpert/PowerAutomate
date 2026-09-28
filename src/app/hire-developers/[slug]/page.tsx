@@ -149,6 +149,45 @@ const developersData: Record<string, any> = {
       { initial: 'R', name: 'robert_tech', location: 'United Kingdom', rating: 5, time: '2 weeks ago', text: 'Iqra completely transformed our chaotic file server into a beautifully organized SharePoint Intranet. Our team loves it!', duration: '14 days', category: 'SharePoint', ongoing: false },
       { initial: 'L', name: 'lisa_m', location: 'Australia', rating: 5, time: '1 month ago', text: 'Excellent communication and deep knowledge of Microsoft 365 architecture. Fixed our permissions mess in no time.', duration: '3 days', category: 'Architecture', ongoing: true }
     ]
+  },
+  'zohaib-rashid': {
+    name: 'Zohaib Rashid',
+    handle: '@zohaibrashid',
+    avatar: '/zohaib.webp',
+    title: 'Automation Engineer',
+    rating: '4.8',
+    reviews: '94',
+    level: 'Level 2 ✦✦',
+    location: 'United Arab Emirates',
+    languages: 'English',
+    hourlyRate: 'PKR 11,500',
+    about: 'Automation Engineer at HashTurn. Zohaib specialises in business automation and custom app development using Power Apps, Dataverse, and SharePoint.',
+    skills: ['Power Apps', 'Dataverse', 'SharePoint', 'Business Automation'],
+    services: [
+      { title: 'Canvas App Development', desc: 'I will build a custom Power Apps Canvas app for your internal business team.', price: 'PKR 25,000', rating: '4.9', reviews: '31' },
+      { title: 'Model-Driven Apps', desc: 'I will create a structured Model-Driven app using Dataverse for data management.', price: 'PKR 30,000', rating: '5.0', reviews: '14' },
+      { title: 'Dataverse Architecture', desc: 'I will design robust tables, relationships, and business rules in Dataverse.', price: 'PKR 22,000', rating: '4.8', reviews: '19' },
+      { title: 'SharePoint to Dataverse', desc: 'I will migrate your SharePoint list-based apps to scalable Dataverse architecture.', price: 'PKR 35,000', rating: '5.0', reviews: '8' },
+      { title: 'Power Apps UI/UX Design', desc: 'I will redesign your existing Canvas app to look modern and user-friendly.', price: 'PKR 15,000', rating: '4.7', reviews: '22' },
+      { title: 'Inventory Management App', desc: 'I will build an inventory tracking app with barcode scanning via Power Apps.', price: 'PKR 28,000', rating: '4.9', reviews: '25' },
+      { title: 'Employee Onboarding App', desc: 'I will automate your HR onboarding process with a custom portal and workflows.', price: 'PKR 20,000', rating: '5.0', reviews: '17' },
+      { title: 'Leave Management System', desc: 'I will deploy a fully functional Leave Request App connected to SharePoint.', price: 'PKR 18,000', rating: '4.8', reviews: '33' },
+      { title: 'Expense Claim Automation', desc: 'I will build an expense reporting app with receipt upload and manager approval.', price: 'PKR 24,000', rating: '4.9', reviews: '11' },
+      { title: 'Power Apps Troubleshooting', desc: 'I will fix delegation warnings, slow loading times, and errors in your app.', price: 'PKR 8,000', rating: '5.0', reviews: '42' },
+      { title: 'Custom API Connectors', desc: 'I will build a custom connector in Power Apps to link with your 3rd party software.', price: 'PKR 25,000', rating: '4.9', reviews: '9' },
+      { title: 'Power Pages Development', desc: 'I will create an external-facing portal using Microsoft Power Pages.', price: 'PKR 40,000', rating: '4.8', reviews: '6' },
+      { title: 'Offline Capable Apps', desc: 'I will configure your Power App to work seamlessly without an internet connection.', price: 'PKR 22,000', rating: '5.0', reviews: '15' },
+      { title: 'Power Platform Governance', desc: 'I will set up DLP policies and environments to secure your Power Platform tenant.', price: 'PKR 15,000', rating: '4.7', reviews: '12' },
+      { hourlyCard: true, price: 'PKR 11,500' }
+    ],
+    experience: [
+      { title: 'Automation Engineer', company: 'HASHTURN', duration: '2022 - Present', desc: 'Building scalable business applications using the Power Platform, integrating Dataverse and SharePoint.' },
+      { title: 'Power Platform Developer', company: 'Tech Innovators', duration: '2020 - 2022', desc: 'Developed custom Canvas and Model-driven apps for internal HR and Finance operations.' }
+    ],
+    detailedReviews: [
+      { initial: 'K', name: 'kevin_b', location: 'USA', rating: 5, time: '3 weeks ago', text: 'Zohaib built an amazing inventory app for our warehouse. The barcode scanning works perfectly!', duration: '10 days', category: 'Power Apps', ongoing: false },
+      { initial: 'T', name: 'tanya_s', location: 'UK', rating: 5, time: '2 months ago', text: 'Great work migrating our old SharePoint lists into a robust Dataverse solution.', duration: '15 days', category: 'Dataverse', ongoing: true }
+    ]
   }
 };
 
