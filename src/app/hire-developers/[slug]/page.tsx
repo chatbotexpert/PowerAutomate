@@ -150,6 +150,45 @@ const developersData: Record<string, any> = {
       { initial: 'L', name: 'lisa_m', location: 'Australia', rating: 5, time: '1 month ago', text: 'Excellent communication and deep knowledge of Microsoft 365 architecture. Fixed our permissions mess in no time.', duration: '3 days', category: 'Architecture', ongoing: true }
     ]
   },
+  'aqsa-wazeer': {
+    name: 'Aqsa Wazeer',
+    handle: '@aqsawazeer',
+    avatar: '/aqsa.jpg',
+    title: 'RPA Developer',
+    rating: '4.9',
+    reviews: '112',
+    level: 'Level 2 ✦✦',
+    location: 'Pakistan',
+    languages: 'English, Urdu',
+    hourlyRate: 'PKR 10,000',
+    about: 'RPA Developer at HashTurn. Aqsa builds attended and unattended workflows for legacy application automation. Specializes in Desktop automation using Power Automate Desktop.',
+    skills: ['Power Automate Desktop', 'RPA', 'Legacy System Automation', 'Web Scraping'],
+    services: [
+      { title: 'Legacy Software Automation', desc: 'I will automate data entry tasks for old Windows desktop applications without APIs.', price: 'PKR 15,000', rating: '4.9', reviews: '31' },
+      { title: 'AS400/Mainframe RPA', desc: 'I will build terminal emulator (AS400) automation flows in Power Automate Desktop.', price: 'PKR 25,000', rating: '5.0', reviews: '14' },
+      { title: 'Unattended RPA Bots', desc: 'I will deploy and schedule unattended bots on virtual machines to run 24/7.', price: 'PKR 20,000', rating: '4.8', reviews: '22' },
+      { title: 'Web Portal Scraping', desc: 'I will extract thousands of records from complex web portals using RPA.', price: 'PKR 12,000', rating: '5.0', reviews: '45' },
+      { title: 'Attended Desktop Flows', desc: 'I will build assistant bots triggered by users to speed up their daily desktop tasks.', price: 'PKR 10,000', rating: '4.9', reviews: '27' },
+      { title: 'PDF to Excel Automation', desc: 'I will use OCR and RPA to extract text from scanned PDFs into structured Excel files.', price: 'PKR 14,000', rating: '4.7', reviews: '38' },
+      { title: 'Data Migration via UI', desc: 'I will automate the migration of data between two incompatible systems via UI interaction.', price: 'PKR 30,000', rating: '5.0', reviews: '11' },
+      { title: 'SAP GUI Automation', desc: 'I will create reliable Power Automate Desktop scripts for SAP ERP tasks.', price: 'PKR 22,000', rating: '4.9', reviews: '19' },
+      { title: 'Email Processing Bot', desc: 'I will set up a bot to read emails, download attachments, and upload them to your CRM.', price: 'PKR 8,500', rating: '5.0', reviews: '53' },
+      { title: 'RPA Error Handling', desc: 'I will audit and fix your existing PAD flows to make them robust against UI changes.', price: 'PKR 7,000', rating: '4.8', reviews: '16' },
+      { title: 'Automated Testing with RPA', desc: 'I will build UI test automation for your software release cycle using PAD.', price: 'PKR 18,000', rating: '4.9', reviews: '12' },
+      { title: 'Excel Macro Replacement', desc: 'I will convert your legacy Excel VBA macros into modern Desktop Flows.', price: 'PKR 15,000', rating: '5.0', reviews: '24' },
+      { title: 'Custom RPA Architecture', desc: 'I will design a scalable RPA infrastructure for your growing business needs.', price: 'PKR 35,000', rating: '4.8', reviews: '8' },
+      { title: 'Monthly RPA Maintenance', desc: 'I will provide ongoing monitoring and maintenance for your production RPA bots.', price: 'PKR 25,000', rating: '5.0', reviews: '9' },
+      { hourlyCard: true, price: 'PKR 10,000' }
+    ],
+    experience: [
+      { title: 'RPA Developer', company: 'HASHTURN', duration: '2022 - Present', desc: 'Specializing in UI automation for legacy applications and building resilient unattended desktop flows.' },
+      { title: 'Automation Consultant', company: 'Freelance', duration: '2020 - 2022', desc: 'Delivered 40+ RPA projects for small businesses, reducing manual data entry by 80%.' }
+    ],
+    detailedReviews: [
+      { initial: 'J', name: 'james_w', location: 'USA', rating: 5, time: '1 month ago', text: 'Aqsa successfully automated a very old legacy software we use that has no API. Saved us hours of daily work!', duration: '5 days', category: 'Legacy Systems', ongoing: false },
+      { initial: 'S', name: 'sara_khan', location: 'UK', rating: 5, time: '3 weeks ago', text: 'Perfect execution of our PDF extraction requirements using Power Automate Desktop.', duration: '2 days', category: 'RPA', ongoing: true }
+    ]
+  },
   'zohaib-rashid': {
     name: 'Zohaib Rashid',
     handle: '@zohaibrashid',
