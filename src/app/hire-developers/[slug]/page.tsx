@@ -71,6 +71,45 @@ const developersData: Record<string, any> = {
     detailedReviews: [
       { initial: 'S', name: 'sarah_j', location: 'Canada', rating: 5, time: '1 month ago', text: 'Rehana is an absolute expert in Power Automate Desktop. She fixed a flow that 3 other developers gave up on. Highly recommended!', duration: '3 days', category: 'Desktop Flows', ongoing: false }
     ]
+  },
+  'maaz-ahmad': {
+    name: 'Maaz Ahmad',
+    handle: '@maazahmad',
+    avatar: '/maaz.webp',
+    title: 'Automation Engineer',
+    rating: '5.0',
+    reviews: '204',
+    level: 'Top Rated ✦✦✦',
+    location: 'United States',
+    languages: 'English, Urdu',
+    hourlyRate: 'PKR 12,000',
+    about: 'Maaz Ahmad is an Automation Engineer at HASHTURN, focused on Power Automate Desktop and the everyday work between business applications, spreadsheets and document workflows.',
+    skills: ['Power Automate Desktop', 'Desktop workflows', 'Excel automation', 'Document workflows'],
+    services: [
+      { title: 'Excel to Web Automation', desc: 'I will automate data entry from Excel spreadsheets directly into web forms using PAD.', price: 'PKR 12,000', rating: '5.0', reviews: '56' },
+      { title: 'PDF Data Extraction', desc: 'I will extract structured data from PDF invoices and save it to Excel/SharePoint.', price: 'PKR 9,500', rating: '4.9', reviews: '34' },
+      { title: 'Automated Daily Reports', desc: 'I will build a desktop flow to gather data, generate a report, and email it.', price: 'PKR 8,000', rating: '5.0', reviews: '22' },
+      { title: 'SharePoint Document Routing', desc: 'I will automate the routing of documents within SharePoint based on metadata.', price: 'PKR 14,000', rating: '4.8', reviews: '15' },
+      { title: 'Custom Desktop Flows', desc: 'I will build a custom Power Automate Desktop flow tailored to your specific process.', price: 'PKR 15,000', rating: '5.0', reviews: '41' },
+      { title: 'API Integration via PAD', desc: 'I will integrate legacy desktop software with modern web APIs.', price: 'PKR 20,000', rating: '4.9', reviews: '19' },
+      { title: 'Email Attachment Downloader', desc: 'I will automate downloading email attachments and saving them to specific folders.', price: 'PKR 5,000', rating: '5.0', reviews: '88' },
+      { title: 'Data Scraping Bot', desc: 'I will build a web scraper to collect pricing data daily and save it to Excel.', price: 'PKR 11,000', rating: '4.7', reviews: '27' },
+      { title: 'Invoice Approval Workflow', desc: 'I will build an automated invoice approval workflow linking Outlook and Teams.', price: 'PKR 18,000', rating: '4.9', reviews: '14' },
+      { title: 'Excel Macro Troubleshooting', desc: 'I will fix and optimize your existing broken Excel VBA scripts and macros.', price: 'PKR 6,500', rating: '5.0', reviews: '31' },
+      { title: 'Dynamic PDF Generation', desc: 'I will automatically generate PDF contracts from Excel data rows.', price: 'PKR 10,000', rating: '4.8', reviews: '25' },
+      { title: 'File Organization Bot', desc: 'I will create a bot that automatically renames and organizes files on your PC.', price: 'PKR 4,500', rating: '5.0', reviews: '42' },
+      { title: 'Scheduled Task Automation', desc: 'I will configure your PAD flows to run on a reliable unattended schedule.', price: 'PKR 7,500', rating: '4.9', reviews: '17' },
+      { title: 'CRM Data Sync', desc: 'I will automate syncing data between your local Excel files and your CRM system.', price: 'PKR 16,000', rating: '4.8', reviews: '11' },
+      { hourlyCard: true, price: 'PKR 12,000' }
+    ],
+    experience: [
+      { title: 'Automation Engineer', company: 'HASHTURN', duration: '2022 - Present', desc: 'Designing and deploying robust Power Automate Desktop workflows for clients globally, specializing in document automation and legacy application integration.' },
+      { title: 'Data Analyst & Automator', company: 'Freelance', duration: '2020 - 2022', desc: 'Automated data processing and reporting tasks using Excel VBA and Power Automate, saving clients hundreds of manual hours.' }
+    ],
+    detailedReviews: [
+      { initial: 'D', name: 'david_miller', location: 'United States', rating: 5, time: '3 weeks ago', text: 'Maaz built an incredibly complex Excel to Web data entry bot for us. It runs flawlessly every day and saves us 4 hours of manual typing. Great communication and technical skills!', duration: '7 days', category: 'Desktop workflows', ongoing: true },
+      { initial: 'A', name: 'anna_k', location: 'Germany', rating: 5, time: '1 month ago', text: 'Very fast delivery and exactly what I needed for my PDF extraction task.', duration: '2 days', category: 'Document workflows', ongoing: false }
+    ]
   }
 };
 
