@@ -227,6 +227,45 @@ const developersData: Record<string, any> = {
       { initial: 'K', name: 'kevin_b', location: 'USA', rating: 5, time: '3 weeks ago', text: 'Zohaib built an amazing inventory app for our warehouse. The barcode scanning works perfectly!', duration: '10 days', category: 'Power Apps', ongoing: false },
       { initial: 'T', name: 'tanya_s', location: 'UK', rating: 5, time: '2 months ago', text: 'Great work migrating our old SharePoint lists into a robust Dataverse solution.', duration: '15 days', category: 'Dataverse', ongoing: true }
     ]
+  },
+  'habibullah': {
+    name: 'Habibullah',
+    handle: '@habibullah',
+    avatar: '/habibullah.jpg',
+    title: 'Full Stack Automation Engineer',
+    rating: '5.0',
+    reviews: '135',
+    level: 'Level 2 ✦✦',
+    location: 'Pakistan',
+    languages: 'English, Urdu',
+    hourlyRate: 'PKR 15,000',
+    about: 'Full Stack Developer at HashTurn. I specialize in bridging the gap between custom web applications and Microsoft Power Automate through REST APIs, custom connectors, and scalable cloud architectures.',
+    skills: ['Power Automate', 'Custom Connectors', 'API Integration', 'Full Stack Development', 'Node.js'],
+    services: [
+      { title: 'Custom Connector for Power Automate', desc: 'I will build a custom connector to integrate your SaaS application with Power Automate.', price: 'PKR 35,000', rating: '5.0', reviews: '41' },
+      { title: 'REST API Development', desc: 'I will develop a secure REST API in Node.js/Python to feed data into your workflows.', price: 'PKR 45,000', rating: '4.9', reviews: '22' },
+      { title: 'Web App to Power Automate', desc: 'I will trigger Power Automate flows directly from your custom React/Next.js web app.', price: 'PKR 25,000', rating: '5.0', reviews: '18' },
+      { title: 'Stripe/PayPal Integration', desc: 'I will automate your payment processing pipelines using webhooks and Power Automate.', price: 'PKR 30,000', rating: '4.8', reviews: '33' },
+      { title: 'OAuth2 Authentication Setup', desc: 'I will configure OAuth2 for your custom connectors to ensure secure data access.', price: 'PKR 20,000', rating: '4.9', reviews: '15' },
+      { title: 'Database Sync (SQL to Dataverse)', desc: 'I will create a robust syncing mechanism between your SQL database and Dataverse.', price: 'PKR 40,000', rating: '5.0', reviews: '27' },
+      { title: 'OpenAI/ChatGPT Integration', desc: 'I will integrate OpenAI APIs into your Power Automate flows for intelligent routing.', price: 'PKR 18,000', rating: '4.9', reviews: '56' },
+      { title: 'Webhook Listener Creation', desc: 'I will build and host a scalable webhook listener to capture real-time events.', price: 'PKR 15,000', rating: '4.8', reviews: '12' },
+      { title: 'Complex Data Parsing', desc: 'I will write Azure Functions or scripts to parse complex JSON/XML data for your flows.', price: 'PKR 22,000', rating: '5.0', reviews: '19' },
+      { title: 'Full Stack SaaS MVP', desc: 'I will build a complete web application backend that relies heavily on automation logic.', price: 'PKR 85,000', rating: '5.0', reviews: '8' },
+      { title: 'Third-Party API Automation', desc: 'I will integrate APIs like HubSpot, Salesforce, or Jira with your internal systems.', price: 'PKR 25,000', rating: '4.9', reviews: '44' },
+      { title: 'Cloud Function Deployments', desc: 'I will deploy lightweight AWS Lambda or Azure Functions to assist your automations.', price: 'PKR 20,000', rating: '4.7', reviews: '11' },
+      { title: 'Shopify to ERP Integration', desc: 'I will build a custom flow syncing Shopify orders with your custom ERP system.', price: 'PKR 35,000', rating: '4.8', reviews: '21' },
+      { title: 'API Rate Limit Handling', desc: 'I will design your flows to handle API pagination and rate limits without failing.', price: 'PKR 12,000', rating: '5.0', reviews: '37' },
+      { hourlyCard: true, price: 'PKR 15,000' }
+    ],
+    experience: [
+      { title: 'Full Stack Automation Engineer', company: 'HASHTURN', duration: '2023 - Present', desc: 'Architecting custom APIs and connectors for complex enterprise automation scenarios.' },
+      { title: 'Backend Developer', company: 'Tech Startup', duration: '2019 - 2023', desc: 'Built scalable microservices and APIs using Node.js and AWS.' }
+    ],
+    detailedReviews: [
+      { initial: 'M', name: 'mike_startup', location: 'USA', rating: 5, time: '1 month ago', text: 'Habibullah built an incredible custom connector for our proprietary software. Power Automate works flawlessly with it now.', duration: '12 days', category: 'API Integration', ongoing: false },
+      { initial: 'C', name: 'claire_d', location: 'Canada', rating: 5, time: '2 months ago', text: 'Our webhook system was failing until Habibullah rebuilt the listener and connected it to our workflows. Highly recommended developer.', duration: '5 days', category: 'Web Apps', ongoing: true }
+    ]
   }
 };
 
