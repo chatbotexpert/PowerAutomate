@@ -110,6 +110,45 @@ const developersData: Record<string, any> = {
       { initial: 'D', name: 'david_miller', location: 'United States', rating: 5, time: '3 weeks ago', text: 'Maaz built an incredibly complex Excel to Web data entry bot for us. It runs flawlessly every day and saves us 4 hours of manual typing. Great communication and technical skills!', duration: '7 days', category: 'Desktop workflows', ongoing: true },
       { initial: 'A', name: 'anna_k', location: 'Germany', rating: 5, time: '1 month ago', text: 'Very fast delivery and exactly what I needed for my PDF extraction task.', duration: '2 days', category: 'Document workflows', ongoing: false }
     ]
+  },
+  'iqra-ahsan': {
+    name: 'Iqra Ahsan',
+    handle: '@iqraahsan',
+    avatar: '/iqra.webp',
+    title: 'SharePoint Architect',
+    rating: '5.0',
+    reviews: '156',
+    level: 'Top Rated ✦✦✦',
+    location: 'Canada',
+    languages: 'English',
+    hourlyRate: 'PKR 14,000',
+    about: 'SharePoint Architect at HashTurn. Iqra designs robust and scalable SharePoint architectures, intranets, and document management systems integrated with Microsoft 365.',
+    skills: ['SharePoint', 'Microsoft 365', 'Architecture', 'Power Apps', 'Migration'],
+    services: [
+      { title: 'SharePoint Intranet Design', desc: 'I will design and build a modern, responsive SharePoint intranet for your company.', price: 'PKR 25,000', rating: '5.0', reviews: '42' },
+      { title: 'SharePoint Migration', desc: 'I will migrate your files from Google Workspace/On-Prem to SharePoint Online safely.', price: 'PKR 35,000', rating: '4.9', reviews: '18' },
+      { title: 'Document Management System', desc: 'I will set up a structured DMS with metadata, versioning, and retention policies.', price: 'PKR 20,000', rating: '5.0', reviews: '31' },
+      { title: 'SharePoint Permissions Setup', desc: 'I will audit and configure secure permission levels across your SharePoint tenant.', price: 'PKR 15,000', rating: '4.8', reviews: '27' },
+      { title: 'Custom SharePoint Lists', desc: 'I will create complex relational SharePoint lists with calculated columns and views.', price: 'PKR 8,000', rating: '5.0', reviews: '55' },
+      { title: 'PowerApps Integration', desc: 'I will customize your SharePoint list forms using Power Apps for a better UI.', price: 'PKR 18,000', rating: '4.9', reviews: '22' },
+      { title: 'SharePoint Approval Workflows', desc: 'I will build multi-stage approval flows using Power Automate connected to SharePoint.', price: 'PKR 16,000', rating: '5.0', reviews: '39' },
+      { title: 'Teams & SharePoint Sync', desc: 'I will configure Microsoft Teams to perfectly sync and structure your SharePoint sites.', price: 'PKR 12,000', rating: '4.7', reviews: '14' },
+      { title: 'SharePoint Hub Sites', desc: 'I will organize your disparate sites into a unified Hub Site architecture.', price: 'PKR 22,000', rating: '5.0', reviews: '19' },
+      { title: 'External Guest Access', desc: 'I will configure secure extranets for sharing documents with clients and vendors.', price: 'PKR 10,000', rating: '4.9', reviews: '33' },
+      { title: 'SharePoint Training', desc: 'I will provide a 2-hour live training session on SharePoint admin best practices.', price: 'PKR 14,000', rating: '5.0', reviews: '45' },
+      { title: 'Metadata & Taxonomy', desc: 'I will design a taxonomy framework (Term Store) for consistent tagging.', price: 'PKR 17,000', rating: '4.8', reviews: '11' },
+      { title: 'SharePoint Branding', desc: 'I will apply custom themes, logos, and branding to your modern SharePoint sites.', price: 'PKR 9,000', rating: '4.9', reviews: '26' },
+      { title: 'Troubleshooting & Support', desc: 'I will fix synchronization, permission, or workflow errors in your SharePoint environment.', price: 'PKR 7,500', rating: '5.0', reviews: '61' },
+      { hourlyCard: true, price: 'PKR 14,000' }
+    ],
+    experience: [
+      { title: 'SharePoint Architect', company: 'HASHTURN', duration: '2021 - Present', desc: 'Leading enterprise-level SharePoint deployments, data migrations, and custom intranet solutions for Fortune 500 clients.' },
+      { title: 'M365 Consultant', company: 'Cloud Solutions Inc', duration: '2018 - 2021', desc: 'Managed Microsoft 365 migrations and configured secure document management environments.' }
+    ],
+    detailedReviews: [
+      { initial: 'R', name: 'robert_tech', location: 'United Kingdom', rating: 5, time: '2 weeks ago', text: 'Iqra completely transformed our chaotic file server into a beautifully organized SharePoint Intranet. Our team loves it!', duration: '14 days', category: 'SharePoint', ongoing: false },
+      { initial: 'L', name: 'lisa_m', location: 'Australia', rating: 5, time: '1 month ago', text: 'Excellent communication and deep knowledge of Microsoft 365 architecture. Fixed our permissions mess in no time.', duration: '3 days', category: 'Architecture', ongoing: true }
+    ]
   }
 };
 
